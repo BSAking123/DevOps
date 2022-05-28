@@ -1,0 +1,501 @@
+
+Dell@DESKTOP-24FEOGD MINGW64 ~
+$ git --version
+git version 2.36.1.windows.1
+
+Dell@DESKTOP-24FEOGD MINGW64 ~
+$ dewname
+bash: dewname: command not found
+
+Dell@DESKTOP-24FEOGD MINGW64 ~
+$ uname
+MINGW64_NT-10.0-19044
+
+Dell@DESKTOP-24FEOGD MINGW64 ~
+$ uname -i
+unknown
+
+Dell@DESKTOP-24FEOGD MINGW64 ~
+$ uname -
+uname: extra operand ‘-’
+Try 'uname --help' for more information.
+
+Dell@DESKTOP-24FEOGD MINGW64 ~
+$ uname --i
+uname: unknown option -- i
+Try 'uname --help' for more information.
+
+Dell@DESKTOP-24FEOGD MINGW64 ~
+$ uname -i
+unknown
+
+Dell@DESKTOP-24FEOGD MINGW64 ~
+$ uname -a
+MINGW64_NT-10.0-19044 DESKTOP-24FEOGD 3.3.4-341.x86_64 2022-05-09 11:56 UTC x86_64 Msys
+
+Dell@DESKTOP-24FEOGD MINGW64 ~
+$ mkdir
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+
+Dell@DESKTOP-24FEOGD MINGW64 ~
+$ pwd
+/c/Users/Dell
+
+Dell@DESKTOP-24FEOGD MINGW64 ~
+$ ls
+ -1.14-windows.xml       'Local Settings'@                                                                               Recen
+'3D Objects'/             LyMetricsCache/                                                                               'Saved
+ AndroidStudioProjects/   Music/                                                                                         Searc
+ AppData/                'My Documents'@                                                                                 SendT
+'Application Data'@       NTUSER.DAT                                                                                    'Start
+ Contacts/                NTUSER.DAT{fd758bd7-b739-11ec-aabf-a758c0ddfce6}.TM.blf                                        Templ
+ Cookies@                 NTUSER.DAT{fd758bd7-b739-11ec-aabf-a758c0ddfce6}.TMContainer00000000000000000001.regtrans-ms   Video
+ Documents/               NTUSER.DAT{fd758bd7-b739-11ec-aabf-a758c0ddfce6}.TMContainer00000000000000000002.regtrans-ms   lumbe
+ Downloads/               NetHood@                                                                                       ntuse
+ Favorites/               OOPJ.code-workspace                                                                            ntuse
+ IntelGraphicsProfiles/   OneDrive/                                                                                      ntuse
+ Links/                   PrintHood@                                                                                     wc/
+
+Dell@DESKTOP-24FEOGD MINGW64 ~
+$ pwd
+/c/Users/Dell
+
+Dell@DESKTOP-24FEOGD MINGW64 ~
+$ cd desktop
+bash: cd: desktop: No such file or directory
+
+Dell@DESKTOP-24FEOGD MINGW64 ~
+$ touch
+touch: missing file operand
+Try 'touch --help' for more information.
+
+Dell@DESKTOP-24FEOGD MINGW64 ~
+$ touch file1.txt
+
+Dell@DESKTOP-24FEOGD MINGW64 ~
+$ mkdir devops
+
+Dell@DESKTOP-24FEOGD MINGW64 ~
+$ touch file1.txt
+
+Dell@DESKTOP-24FEOGD MINGW64 ~
+$ touch abc.txt
+
+Dell@DESKTOP-24FEOGD MINGW64 ~
+$ ls
+ -1.14-windows.xml                                                                              NetHood@
+'3D Objects'/                                                                                   OOPJ.code-workspace
+ AndroidStudioProjects/                                                                         OneDrive/
+ AppData/                                                                                       PrintHood@
+'Application Data'@                                                                             Recent@
+ Contacts/                                                                                     'Saved Games'/
+ Cookies@                                                                                       Searches/
+ Documents/                                                                                     SendTo@
+ Downloads/                                                                                    'Start Menu'@
+ Favorites/                                                                                     Templates@
+ IntelGraphicsProfiles/                                                                         Videos/
+ Links/                                                                                         abc.txt
+'Local Settings'@                                                                               devops/
+ LyMetricsCache/                                                                                file1.txt
+ Music/                                                                                         lumberyard_stylesheet.qss
+'My Documents'@                                                                                 ntuser.dat.LOG1
+ NTUSER.DAT                                                                                     ntuser.dat.LOG2
+ NTUSER.DAT{fd758bd7-b739-11ec-aabf-a758c0ddfce6}.TM.blf                                        ntuser.ini
+ NTUSER.DAT{fd758bd7-b739-11ec-aabf-a758c0ddfce6}.TMContainer00000000000000000001.regtrans-ms   wc/
+ NTUSER.DAT{fd758bd7-b739-11ec-aabf-a758c0ddfce6}.TMContainer00000000000000000002.regtrans-ms
+
+Dell@DESKTOP-24FEOGD MINGW64 ~
+$ mkdir devops
+mkdir: cannot create directory ‘devops’: File exists
+
+Dell@DESKTOP-24FEOGD MINGW64 ~
+$ cd devops
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops
+$ touch abc.txt
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops
+$ ls
+abc.txt
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops
+$ nano abc.txt
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops
+$ pwd
+/c/Users/Dell/devops
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops
+$ cd desktop
+bash: cd: desktop: No such file or directory
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops
+$ cd .
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops
+$ ls
+abc.txt
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops
+$ cd ..
+
+Dell@DESKTOP-24FEOGD MINGW64 ~
+$ pwd
+/c/Users/Dell
+
+Dell@DESKTOP-24FEOGD MINGW64 ~
+$ cd ..
+
+Dell@DESKTOP-24FEOGD MINGW64 /c/Users
+$ pwd
+/c/Users
+
+Dell@DESKTOP-24FEOGD MINGW64 /c/Users
+$ cd devops
+bash: cd: devops: No such file or directory
+
+Dell@DESKTOP-24FEOGD MINGW64 /c/Users
+$ cd Dell
+
+Dell@DESKTOP-24FEOGD MINGW64 ~
+$ cd devops
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops
+$ pwd
+/c/Users/Dell/devops
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops
+$ ls
+abc.txt
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops
+$ nano abc.txt
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops
+$ nano abc.txt
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops
+$ cat abc.txt
+Let the beat drop
+Never Settle
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops
+$ nano abc.txt
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops
+$ cat abc.txt
+
+Let the beat drop
+Never Settle
+
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops
+$ touch bcd.txt
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops
+$ cp abc.txt bcd.txt
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops
+$ cat bcd.txt
+
+Let the beat drop
+Never Settle
+
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops
+$ cat abc.txt
+
+Let the beat drop
+Never Settle
+
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops
+$ touch xyz.txt
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops
+$ mv abc.txt xyz.txt
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops
+$ ls
+bcd.txt  xyz.txt
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops
+$ cat xyz.txt
+
+Let the beat drop
+Never Settle
+
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops
+$ echo hai
+hai
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops
+$ echo tyyy > bcd.txt
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops
+$ cat bcd.txt
+tyyy
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops
+$ echo hiiiiiiiiiiiiii > bcd.txt
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops
+$ cat bcd.txt
+hiiiiiiiiiiiiii
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops
+$ git init
+Initialized empty Git repository in C:/Users/Dell/devops/.git/
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops (master)
+$ git config ---global user.name ""BSAking123"
+> bsacreayions@gmail.com
+> cat bcd.txtgit config ---global user.name ""BSAking123"
+error: unknown option `-global'
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-pattern]
+    --get-all             get all values: key [value-pattern]
+    --get-regexp          get values for regexp: name-regex [value-pattern]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value-pattern]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-pattern]
+    --unset-all           remove all matches: name [value-pattern]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    --fixed-value         use string equality when comparing values to 'value-pattern'
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <type>     value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops (master)
+$ > bsacreayions@gmail.com
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops (master)
+$ git config ---global user.email bsacreations@gmail.com ""BSAking123"
+>
+> x\
+>
+> \
+>
+>
+> git config ---global user.email bsacreations@gmail.com ""BSAking123"
+
+x\
+
+\
+
+error: unknown option `-global'
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-pattern]
+    --get-all             get all values: key [value-pattern]
+    --get-regexp          get values for regexp: name-regex [value-pattern]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value-pattern]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-pattern]
+    --unset-all           remove all matches: name [value-pattern]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    --fixed-value         use string equality when comparing values to 'value-pattern'
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <type>     value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+bash: x: command not found
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops (master)
+$ git config --global user.email "bsacreations@gmail.com"
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops (master)
+$ git config --global user.name "BSAking123"
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops (master)
+$ git remote add master https://github.com/BSAking123/DevOps.git
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops (master)
+$ touch abc.py
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops (master)
+$ nano abc.py
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops (master)
+$ cat abc.py
+Monster Inside
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops (master)
+$ git add abc.py
+warning: LF will be replaced by CRLF in abc.py.
+The file will have its original line endings in your working directory
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   abc.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        bcd.txt
+        bsacreayions@gmail.com
+        xyz.txt
+
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops (master)
+$ rm bsacreabsacrea
+rm: cannot remove 'bsacreabsacrea': No such file or directory
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   abc.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        bcd.txt
+        xyz.txt
+
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops (master)
+$ git add bcd.txt
+warning: LF will be replaced by CRLF in bcd.txt.
+The file will have its original line endings in your working directory
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops (master)
+$ git add xyz.txt
+warning: LF will be replaced by CRLF in xyz.txt.
+The file will have its original line endings in your working directory
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   abc.py
+        new file:   bcd.txt
+        new file:   xyz.txt
+
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops (master)
+$ git commit -m "Hestia DevOps 2022"
+[master (root-commit) 1b7fcec] Hestia DevOps 2022
+ 3 files changed, 6 insertions(+)
+ create mode 100644 abc.py
+ create mode 100644 bcd.txt
+ create mode 100644 xyz.txt
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops (master)
+$ git push -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops (master)
+$ git push -u master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (5/5), 353 bytes | 353.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/BSAking123/DevOps/pull/new/master
+remote:
+To https://github.com/BSAking123/DevOps.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'master/master'.
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops (master)
+$ git push -u main
+fatal: 'main' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Dell@DESKTOP-24FEOGD MINGW64 ~/devops (master)
+$
